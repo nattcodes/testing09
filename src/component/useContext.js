@@ -26,7 +26,7 @@ function Themebutton() {
         onClick={() => setTheme(theme === "light" ? "dark" : "light")}
         style={{
           background: theme === "light" ? "#fff" : "#333",
-          color: theme === "light",
+          color: theme === "black",
         }}
       >
         Toggle Theme
